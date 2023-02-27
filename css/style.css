@@ -18,6 +18,9 @@ body{
 #hero, #about{
     background-color: var(--aqua);
 }
+#hero img{
+    width: 50%;
+}
 #portfolio, #contacts{
     background-color: var(--white);
     color: black;
@@ -32,4 +35,17 @@ body{
 }
 #b-footer{
     background-color: var(--dark-blue);
+}
+
+/* MEDIAQUERY */
+@media (min-width: 768px){
+    #hero img{
+        width: 25%;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    h3{
+        font-size: 2rem;
+    }
 }
