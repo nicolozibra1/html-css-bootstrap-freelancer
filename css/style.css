@@ -4,3 +4,29 @@
     --aqua: #1abc9c;
     --white: #ffffff;
 }
+
+body{
+    color: var(--white)
+}
+
+/* HEADER */
+header{
+    background-color: var(--dark-blue);
+}
+
+/* MAIN */
+#hero, #about{
+    background-color: var(--aqua);
+}
+#portfolio, #contacts{
+    background-color: var(--white);
+    color: black;
+}
+
+/* FOOTER */
+#t-footer{
+    background-color: var(--light-blue);
+}
+#b-footer{
+    background-color: var(--dark-blue);
+}
