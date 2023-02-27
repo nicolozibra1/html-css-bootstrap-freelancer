@@ -4,16 +4,16 @@
     --aqua: #1abc9c;
     --white: #ffffff;
 }
-
 body{
     color: var(--white)
 }
-
+.debug{
+    border: 1px solid red;
+}
 /* HEADER */
-header{
+.navbar{
     background-color: var(--dark-blue);
 }
-
 /* MAIN */
 #hero, #about{
     background-color: var(--aqua);
@@ -22,7 +22,6 @@ header{
     background-color: var(--white);
     color: black;
 }
-
 /* FOOTER */
 #t-footer{
     background-color: var(--light-blue);
